@@ -41,4 +41,17 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+      <repository>
+        <id>DevOpsDemoSantander</id>
+        <url>https://pkgs.dev.azure.com/DevOpsDemoSantander/_packaging/DevOpsDemoSantander/maven/v1</url>
+        <releases>
+          <enabled>true</enabled>
+        </releases>
+        <snapshots>
+          <enabled>true</enabled>
+        </snapshots>
+      </repository>  
+    </distributionManagement>
+
 </project>
